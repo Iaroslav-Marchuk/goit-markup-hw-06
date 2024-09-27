@@ -43,7 +43,8 @@ a {
   color: #2e2f42;
 }
 
-.navigation ul a:hover {
+.navigation ul a:hover,
+.navigation ul a:focus {
   color: #404bbf;
 }
 
@@ -52,7 +53,7 @@ address {
 }
 
 .contacts a {
-  font-weight: 900;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
