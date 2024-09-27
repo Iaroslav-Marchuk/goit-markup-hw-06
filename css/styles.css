@@ -10,7 +10,7 @@ a {
   text-decoration: none;
 }
 
-.navigation .logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -19,19 +19,19 @@ a {
   letter-spacing: 0.03em;
   color: #4d5ae5;
 }
-.navigation .logo .accent {
+.logo .accent {
   color: #2e2f42;
 }
 
-.navigation .accent:hover,
-.navigation .accent:active,
-.navigation .accent:focus {
+.accent:hover,
+.accent:active,
+.accent:focus {
   color: #404bbf;
 }
 
-.navigation .logo:hover,
-.navigation .logo:active,
-.navigation .logo:focus {
+.logo:hover,
+.logo:active,
+.logo:focus {
   color: #404bbf;
 }
 
