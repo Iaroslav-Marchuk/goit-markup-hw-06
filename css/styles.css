@@ -1,7 +1,7 @@
 body {
-  font-family: "Raleway", "Roboto", sans-serif;
-  color: #2e2f42;
-  background-color: #fcfcfc;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 ul {
   list-style-type: none;
@@ -15,9 +15,12 @@ a {
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
 }
 .logo .accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .accent:hover,
@@ -44,8 +47,12 @@ a {
   color: #404bbf;
 }
 
+address {
+  font-style: normal;
+}
+
 .contacts a {
-  font-weight: 400;
+  font-weight: 900;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -53,8 +60,12 @@ a {
 }
 
 .contacts a:hover,
-.contacts a:active {
+.contacts a:active,
+.contacts a:focus {
   color: #404bbf;
+}
+.main-page {
+  background-color: #2e2f42;
 }
 .main-page-title {
   font-weight: 700;
@@ -63,9 +74,9 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  background-color: #2e2f42;
 }
 .main-page-button {
+    font-family: "Roboto", sans-serif
   background-color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
@@ -89,6 +100,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .title {
@@ -114,4 +126,16 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   background-color: #2e2f42;
+}
+
+
+.team {
+    background-color: #F4F4FD;
+}
+.team-img {
+    background-color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2e2f42;
 }
