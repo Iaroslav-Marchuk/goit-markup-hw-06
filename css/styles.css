@@ -10,7 +10,7 @@ a {
   text-decoration: none;
 }
 
-.logo {
+.navigation .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -19,7 +19,7 @@ a {
   letter-spacing: 0.03em;
   color: #4d5ae5;
 }
-.logo .accent {
+.navigation .logo .accent {
   color: #2e2f42;
 }
 
