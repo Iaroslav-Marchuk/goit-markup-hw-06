@@ -42,8 +42,13 @@ img {
 .container {
   display: flex;
   width: 1158px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px;
+}
+
+.main-menu {
+  display: flex;
+  margin-right: 76px;
 }
 
 .menu {
@@ -61,10 +66,10 @@ img {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   padding: 24px 0;
+  margin-right: 76px;
 }
 .menu .logo .accent {
   color: #2e2f42;
-  margin-right: 76px;
 }
 
 .accent:hover,
@@ -116,16 +121,19 @@ img {
 
 .main-page {
   background-color: #2e2f42;
-}
-.main-page {
   display: flex;
-
   justify-content: center;
-  align-items: center;
   padding: 188px 0;
+}
+.main-page .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
 }
 
 .main-page-title {
+  display: flex;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -163,7 +171,65 @@ img {
   background-color: #404bbf;
 }
 
-.main-title {
+.facts {
+  padding: 120px 0;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.facts-menu {
+  display: flex;
+  gap: 24px;
+}
+
+.facts-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.facts-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.facts-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.team {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.team .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+}
+
+.team-title {
+  display: flex;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -173,20 +239,42 @@ img {
   text-transform: capitalize;
 }
 
-.title {
+.team-members {
+  display: flex;
+  gap: 24px;
+}
+
+.member {
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+}
+
+.card {
+  padding-bottom: 32px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
+.member-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
-.descr {
+.member-descr {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 .footer-text {
@@ -196,13 +284,6 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   background-color: #2e2f42;
-}
-
-.team {
-  background-color: #f4f4fd;
-}
-.team-img {
-  background-color: #ffffff;
 }
 
 .footer {
