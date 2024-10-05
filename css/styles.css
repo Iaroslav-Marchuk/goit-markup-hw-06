@@ -76,7 +76,7 @@ img {
   padding: 24px 0;
   margin-right: 76px;
 }
-.logo .accent {
+.accent {
   color: #2e2f42;
   padding: 24px 0;
 }
@@ -332,16 +332,11 @@ img {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: flex;
-  flex-direction: column;
 }
 
 .footer .container {
   display: flex;
   flex-direction: column;
-}
-.conteiner .logo-footer {
-  display: inline-block;
 }
 
 .logo-footer {
@@ -353,6 +348,9 @@ img {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   margin-bottom: 16px;
+}
+
+.container a {
   display: inline-block;
 }
 
