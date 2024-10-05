@@ -97,7 +97,7 @@ img {
   color: #404bbf;
 }
 
-.contacts ul {
+.contacts {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -363,6 +363,7 @@ img {
   max-width: 264px;
 }
 
+.logo-footer,
 .logo-footer .accent {
   color: #f4f4fd;
   display: inline-block;
