@@ -353,6 +353,7 @@ img {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-text {
@@ -367,7 +368,7 @@ img {
 }
 
 .logo-footer,
-.logo-footer .footer-accent {
+.footer-accent {
   color: #f4f4fd;
   display: inline-block;
 }
