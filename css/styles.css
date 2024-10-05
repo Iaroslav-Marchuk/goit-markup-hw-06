@@ -76,8 +76,9 @@ img {
   padding: 24px 0;
   margin-right: 76px;
 }
-.menu .logo .accent {
+.logo .accent {
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .accent:hover,
@@ -366,13 +367,14 @@ img {
 }
 
 .logo-footer,
-.logo-footer .accent {
+.logo-footer .footer-accent {
   color: #f4f4fd;
+  display: inline-block;
 }
 
-.accent:hover,
-.accent:active,
-.accent:focus {
+.footer-accent:hover,
+.footer-accent:active,
+.footer-accent:focus {
   color: #404bbf;
 }
 
