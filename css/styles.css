@@ -350,7 +350,7 @@ img {
   margin-bottom: 16px;
 }
 
-.container a {
+.container .logo-footer {
   display: inline-block;
 }
 
@@ -368,7 +368,6 @@ img {
 .logo-footer,
 .footer-accent {
   color: #f4f4fd;
-  display: inline-block;
 }
 
 .footer-accent:hover,
