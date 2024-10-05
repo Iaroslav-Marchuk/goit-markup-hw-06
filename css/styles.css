@@ -137,7 +137,6 @@ img {
 
 .main-page-button {
   display: block;
-
   font-family: "Roboto", sans-serif;
   background-color: #2e2f42;
   font-weight: 500;
@@ -154,7 +153,6 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
   border: none;
-
   margin-left: auto;
   margin-right: auto;
 }
