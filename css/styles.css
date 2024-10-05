@@ -339,7 +339,7 @@ img {
   display: flex;
   flex-direction: column;
 }
-.conteiner a {
+.conteiner .logo-footer {
   display: inline-block;
 }
 
@@ -351,7 +351,6 @@ img {
   line-height: 117%;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-
   margin-bottom: 16px;
 }
 
