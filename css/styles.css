@@ -61,11 +61,14 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
   margin-right: 76px;
 }
 
 .menu-link {
+  padding: 24px 0;
+}
+
+.main-menu span {
   padding: 24px 0;
 }
 
@@ -365,8 +368,8 @@ img {
   max-width: 264px;
 }
 
-.logo-footer,
 .footer-accent {
+  display: inline-block;
   color: #f4f4fd;
 }
 
