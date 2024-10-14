@@ -94,7 +94,7 @@ img {
   color: #404bbf;
 }
 
-.menu-item:focus::after {
+.menu-item:focus:after {
   content: "";
   width: 100%;
   position: absolute;
