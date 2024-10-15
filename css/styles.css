@@ -1,6 +1,5 @@
 *,
-*::after,
-*::before {
+*::after {
   box-sizing: border-box;
 }
 
@@ -97,7 +96,8 @@ img {
   color: #404bbf;
 }
 
-.menu-item:focus::after {
+.menu-item:focus::after,
+.menu-item:hover::after {
   content: "";
   width: 100%;
   position: absolute;
