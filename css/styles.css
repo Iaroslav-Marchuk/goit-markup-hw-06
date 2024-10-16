@@ -81,23 +81,22 @@ img {
   gap: 40px;
 }
 
+.studio {
+  color: #404bbf;
+}
+
 .menu-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: #434455;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 24px 0;
 }
 
-.menu-item:hover {
-  color: #404bbf;
-}
-
-.menu-item:focus::after,
-.menu-item:hover::after {
+.studio::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -106,6 +105,11 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+}
+
+.menu-item:focus,
+.menu-item:hover {
+  color: #404bbf;
 }
 
 .address {
