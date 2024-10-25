@@ -551,11 +551,6 @@ button {
   color: #ffffff;
 }
 
-.form-input-footer:focus {
-  outline: none;
-  border-color: #4d5ae5;
-}
-
 .button-subscribe {
   display: flex;
   align-items: center;
