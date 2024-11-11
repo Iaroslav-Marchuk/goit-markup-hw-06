@@ -376,7 +376,7 @@ button {
     url(../images/people-office-mobile@x1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 @media (min-width: 320px) and (min-resolution: 192dpi) {
